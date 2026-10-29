@@ -1,0 +1,127 @@
+Loading graphΓÇª
+
+Extracting features for 25 fit + 15 test questionsΓÇª
+  [1/40] CQ01 (fit)  What is the cut-off mark for Hare School?
+  [2/40] CQ02 (fit)  What is the cut-off mark for Tantia High School?
+  [3/40] CQ03 (fit)  What is the cut-off mark for Chittaranjan Boys High Sch
+  [4/40] CQ04 (fit)  What is the cut-off mark for Dum Dum Baidyanath Institu
+  [5/40] CQ05 (fit)  What is the cut-off mark for Vivekananda School?
+  [6/40] CQ06 (fit)  What is the cut-off mark for Hindu Girl's School?
+  [7/40] CQ07 (fit)  What is the cut-off mark for Kamala Chatterjee Girls Sc
+  [8/40] CQ08 (fit)  What is the cut-off mark for Debiswari Girl's High Scho
+  [9/40] CQ09 (fit)  How many seats and what cut-off does Pandit Motilal Ins
+  [10/40] CQ10 (fit)  How many seats and what cut-off does Sri Ramkrishna Vid
+  [11/40] CQ14 (fit)  How many Class I seats are approved for Nava Nalanda Gr
+  [12/40] CQ17 (fit)  How many seats does Auxilium Convent School have for Cl
+  [13/40] CQ18 (fit)  What is the last date for submitting Class V applicatio
+  [14/40] CQ19 (fit)  When is the admission lottery for WBBSE schools?
+  [15/40] CQ21 (fit)  What percentage of seats is reserved for EWS children?
+  [16/40] CQ23 (fit)  Within how many days must vacancies be filled after a t
+  [17/40] CQ24 (fit)  Which schools are located on Barrackpore Trunk Road?
+  [18/40] CQ25 (fit)  Which schools are located on AJC Bose Road?
+  [19/40] CQ26 (fit)  Within how many days must schools on listed roads insta
+  [20/40] CQ27 (fit)  Which schools covered by circulars are in Dum Dum?
+  [21/40] CQ28 (fit)  What is the land use of the localities in the district?
+  [22/40] CQ30 (fit)  Which circular supersedes DEO/ADM/2026/001?
+  [23/40] CQ32 (fit)  Which boys' school has the highest cut-off among WBBSE 
+  [24/40] CQ37 (fit)  When does the monsoon holiday begin?
+  [25/40] CQ38 (fit)  How many teachers does Bethune Collegiate School have?
+  [26/40] CQ11 (test)  How many seats and what cut-off does Rajarhat Shiksha N
+  [27/40] CQ12 (test)  How many Class I seats are approved for Don Bosco Schoo
+  [28/40] CQ13 (test)  How many Class I seats are approved for Heritage Academ
+  [29/40] CQ15 (test)  How many seats does St. Jude's High School have for Cla
+  [30/40] CQ16 (test)  How many seats does Holy Cross School have for Class I?
+  [31/40] CQ20 (test)  What is the minimum age for Class I in ICSE schools?
+  [32/40] CQ22 (test)  How many parents must attend the lottery draw?
+  [33/40] CQ29 (test)  What is the age requirement for Class V admission in WB
+  [34/40] CQ31 (test)  Which circular revised the EWS income ceiling?
+  [35/40] CQ33 (test)  What is the tuition fee at Hare School?
+  [36/40] CQ34 (test)  Who is the district education officer?
+  [37/40] CQ35 (test)  What is the school bus timetable for Delhi Public Schoo
+  [38/40] CQ36 (test)  What are the hostel rules at St. Jude's High School?
+  [39/40] CQ39 (test)  What is the weather in Howrah today?
+  [40/40] CQ40 (test)  What is the mid-day meal menu in WBBSE schools?
+
+=== Logistic Regression (3 features: reranker_logit, bm25_top, knn_top) ===
+  Coefficients: logit=0.170  bm25=0.705  knn=0.026
+  Intercept:    -3.694
+  Fit  log-loss: 0.0899
+  Test log-loss: 0.4261
+
+Temperature grid search on fit split (single-feature sigmoid):
+  T=0.50  fit log-loss=0.4055
+  T=0.75  fit log-loss=0.2731
+  T=1.00  fit log-loss=0.2106
+  T=1.25  fit log-loss=0.1776
+  T=1.50  fit log-loss=0.1604
+  T=1.75  fit log-loss=0.1529
+  T=2.00  fit log-loss=0.1519
+  T=3.00  fit log-loss=0.1801
+
+  Best T on fit: 2.0  (log-loss=0.1519)
+
+=== Reliability table (5 equal-frequency bins, test split) ===
+  Bin    MeanConf   FracPos      N    |Gap|
+     1      0.179     0.000      3    0.179
+     2      0.450     0.000      3    0.450
+     3      0.965     1.000      3    0.035
+     4      0.975     1.000      3    0.025
+     5      0.987     1.000      3    0.013
+
+  ECE  (test) = 0.1402
+  Brier(test) = 0.0494
+
+  LR ECE  (test) = 0.2096
+  LR Brier(test) = 0.1463
+
+=== Coverage and accuracy @ 5 thresholds (test split, single-feature sigmoid) ===
+   Threshold   Coverage   Accuracy   >= 90% rule
+        0.50      1.000      0.933          PASS
+        0.65      0.800      1.000          PASS
+        0.75      0.733      1.000          PASS
+        0.85      0.667      1.000          PASS
+        0.95      0.600      1.000          PASS
+
+=== LLM sampling temperature consistency (3 runs per temp) ===
+  (time-boxed to 3 runs; full 5-run table would take ~25 min on CPU)
+    T=0.0 run1: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.0 run2: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.0 run3: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.3 run1: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.3 run2: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.3 run3: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.7 run1: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.7 run2: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.7 run3: The passage does not provide the cut-off mark for Hare Schoo
+    T=0.0 run1: Delhi Public School has 160 seats.
+    T=0.0 run2: Delhi Public School has 160 seats.
+    T=0.0 run3: Delhi Public School has 160 seats.
+    T=0.3 run1: Delhi Public School has 160 seats.
+    T=0.3 run2: Delhi Public School has 160 seats.
+    T=0.3 run3: Delhi Public School has 160 seats.
+    T=0.7 run1: Delhi Public School has 160 seats.
+    T=0.7 run2: Delhi Public School has 160 seats.
+    T=0.7 run3: Delhi Public School has 160 seats.
+    T=0.0 run1: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.0 run2: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.0 run3: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.3 run1: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.3 run2: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.3 run3: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.7 run1: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.7 run2: The minimum age for Class I admission in CBSE is 6 years as 
+    T=0.7 run3: The minimum age for Class I admission in CBSE is 6 years as 
+
+  Question                                    Temp  UniqueAns  KeyHits/3
+  What is the cut-off mark for Hare School    0.0           1  0/3
+  What is the cut-off mark for Hare School    0.3           2  0/3
+  What is the cut-off mark for Hare School    0.7           3  0/3
+  How many seats does Delhi Public School     0.0           1  3/3
+  How many seats does Delhi Public School     0.3           1  3/3
+  How many seats does Delhi Public School     0.7           1  3/3
+  What is the minimum age for Class I in C    0.0           1  3/3
+  What is the minimum age for Class I in C    0.3           1  3/3
+  What is the minimum age for Class I in C    0.7           1  3/3
+
+Saved evalsuite\results\confidence_full.json
+DONE

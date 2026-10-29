@@ -1,0 +1,32 @@
+Notes on schools, localities and roads in the district
+Compiled on 10 April 2026
+
+This note lists where the schools mentioned in district circulars are located. Locations come from the Geo-Server layers.
+
+In Bally, the schools covered by district circulars are Debiswari Girl's High School (WBBSE).
+
+In Ballygunge, the schools covered by district circulars are Chittaranjan Girls High School (WBBSE), Chittaranjan Boys High School (WBBSE), Kamala Chatterjee Girls School (WBBSE).
+
+In Baranagar, the schools covered by district circulars are Baranagar Ramakrishna Mission Ashrama High School (WBBSE).
+
+In Belgachia, the schools covered by district circulars are Bethune Collegiate School (WBBSE).
+
+In Dum Dum, the schools covered by district circulars are St. Jude's High School (ICSE), Rajarhat Shiksha Niketan High School for Boys (WBBSE), Rajarhat Shiksha Niketan High School for Girls (WBBSE), Narain Dass Bangur Memorial Multipurpose School (CBSE), Dum Dum Baidyanath Institution (WBBSE), Dum Dum Krishna Kumar Hindu Academy (WBBSE), Auxilium Convent School (ICSE), Pandit Motilal Institute (WBBSE), Sri Ramkrishna Vidyasram (WBBSE).
+
+In Entally, the schools covered by district circulars are Holy Cross School (ICSE), Hare School (WBBSE), Tantia High School (WBBSE).
+
+In Howrah, the schools covered by district circulars are Heritage Academy (CBSE), B.K.Paul's Institution (WBBSE).
+
+In Jadavpur, the schools covered by district circulars are The Calcutta Emmanuel School (ICSE).
+
+In Park Street, the schools covered by district circulars are Don Bosco School (CBSE), Saint Xavier's Collegiate School (ICSE), Harrow Hall (ICSE).
+
+In Salt Lake, the schools covered by district circulars are Delhi Public School (CBSE).
+
+In Shibpur, the schools covered by district circulars are Hindu Girl's School (WBBSE), Kabitirtha Vidyalaya (WBBSE), Dinabandhu Institution Main (WBBSE), Vivekananda School (WBBSE).
+
+In Tollygunge, the schools covered by district circulars are Nava Nalanda Group of Schools (CBSE).
+
+The main roads covered by the road safety circular are Barrackpore Trunk Road, AJC Bose Road, Grand Trunk Road, Diamond Harbour Road, Belgachia Road.
+
+Land use: Howrah is mainly residential; Shibpur is mainly commercial; Bally is mainly park; Park Street is mainly commercial; Ballygunge is mainly residential; Tollygunge is mainly park; Jadavpur is mainly commercial; Salt Lake is mainly residential; Dum Dum is mainly industrial; Baranagar is mainly residential; Belgachia is mainly commercial; Entally is mainly residential.

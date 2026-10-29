@@ -1,0 +1,14 @@
+{
+  "best_T_sigmoid": 2.0,
+  "fit_log_loss_sigmoid": 0.1519,
+  "ece_test_sigmoid": 0.1402,
+  "brier_test_sigmoid": 0.0494,
+  "ece_test_lr": 0.2096,
+  "brier_test_lr": 0.1463,
+  "lr_coef": [
+    0.16989130727949475,
+    0.705494135101771,
+    0.02638218466191058
+  ],
+  "lr_intercept": -3.693983695264533
+}

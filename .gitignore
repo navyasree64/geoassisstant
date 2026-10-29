@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local configurations
+.env
+*.local
+
+# GIS raw database mount
+gisdata/
+
+# Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Large arrays and embeddings cache
+ingest/out/*.npy
+ingest/out/
+*.npy
+
+# Submission archives
+*.zip
+
+# IDE metadata
+.vscode/
+.idea/
+.agents/
+
+# Temporary and scratch files
+scratch/
+.DS_Store
+Thumbs.db
+*.log
+

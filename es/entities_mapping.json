@@ -1,0 +1,38 @@
+{
+  "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "entity_id":      {"type": "keyword"},
+      "type":           {"type": "keyword"},
+      "canonical_name": {"type": "text", "analyzer": "english", "fields": {"raw": {"type": "keyword"}}},
+      "aliases":        {"type": "keyword"},
+      "attributes": {
+        "properties": {
+          "osm_id":       {"type": "keyword"},
+          "board":        {"type": "keyword"},
+          "seats":        {"type": "integer"},
+          "cutoff_marks": {"type": "integer"},
+          "locality":     {"type": "keyword"},
+          "location":     {"type": "geo_point"},
+          "linked":       {"type": "boolean"},
+          "date":         {"type": "date", "format": "yyyy-MM-dd"},
+          "value":        {"type": "integer"},
+          "kind":         {"type": "keyword"},
+          "number":       {"type": "keyword"},
+          "doc_id":       {"type": "keyword"}
+        }
+      },
+      "mentions": {
+        "type": "nested",
+        "properties": {
+          "chunk_id": {"type": "keyword"},
+          "doc_id":   {"type": "keyword"},
+          "start":    {"type": "integer"},
+          "end":      {"type": "integer"},
+          "text":     {"type": "text", "analyzer": "english", "fields": {"raw": {"type": "keyword"}}}
+        }
+      }
+    }
+  }
+}

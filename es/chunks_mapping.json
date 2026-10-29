@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "chunk_id": {
+        "type": "keyword"
+      },
+      "doc_id": {
+        "type": "keyword"
+      },
+      "doc_type": {
+        "type": "keyword"
+      },
+      "file": {
+        "type": "keyword"
+      },
+      "page": {
+        "type": "integer"
+      },
+      "para_index": {
+        "type": "integer"
+      },
+      "start": {
+        "type": "integer"
+      },
+      "end": {
+        "type": "integer"
+      },
+      "char_count": {
+        "type": "integer"
+      },
+      "issue_date": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "circular_number": {
+        "type": "keyword"
+      },
+      "boards": {
+        "type": "keyword"
+      },
+      "school_ids": {
+        "type": "keyword"
+      },
+      "school_locations": {
+        "type": "geo_point"
+      },
+      "text": {
+        "type": "text",
+        "analyzer": "english"
+      },
+      "embedding": {
+        "type": "dense_vector",
+        "dims": 384,
+        "index": true,
+        "similarity": "cosine",
+        "index_options": {
+          "type": "hnsw",
+          "m": 16,
+          "ef_construction": 100
+        }
+      }
+    }
+  }
+}

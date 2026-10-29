@@ -1,0 +1,8 @@
+=== RERANK DETERMINISM VERIFICATION ===
+Query: DEO/ADM/2026/011
+Total candidates evaluated: 50
+Deterministic tie-break rule: sorted by (-reranker_score, chunk_id)
+Run 1 top-5 order: ['CIR-011-head', 'CIR-004-supers', 'CIR-012-head', 'CIR-010-head', 'CIR-012-supers']
+Run 2 top-5 order: ['CIR-011-head', 'CIR-004-supers', 'CIR-012-head', 'CIR-010-head', 'CIR-012-supers']
+Identical ordering across runs: True
+STATUS: PASS

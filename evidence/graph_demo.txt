@@ -1,0 +1,49 @@
+﻿=== 1. Graph measures ===
+nodes 130 | edges (distinct node pairs) 196 | typed edges 196 | connected components 61 (largest 70 nodes)
+top-5 degree: [('WBBSE', 34), ('DEO/ADM/2026/009', 28), ('CBSE', 17), ('ICSE', 17), ('DEO/ADM/2026/006', 9)]
+top-5 PageRank: [('WBBSE', 0.0687), ('DEO/ADM/2026/009', 0.0529), ('ICSE', 0.0359), ('CBSE', 0.034), ('Dum Dum', 0.0191)]
+
+=== 2. Traversal from Hare School ===
+
+1 hop(s): 6 entities reached
+  hop 1 score 1.000  Diamond Harbour Road   via  Hare School -[near 1.00]-> Diamond Harbour Road
+  hop 1 score 0.995  WBBSE   via  Hare School -[affiliated_with 0.99]-> WBBSE
+  hop 1 score 0.990  DEO/ADM/2026/006   via  Hare School -[mentions^-1 0.99]-> DEO/ADM/2026/006
+  hop 1 score 0.985  Entally   via  Hare School -[located_in 0.98]-> Entally
+  hop 1 score 0.900  DEO/ADM/2026/001   via  Hare School -[mentions^-1 0.90]-> DEO/ADM/2026/001
+  hop 1 score 0.900  DEO/ADM/2026/009   via  Hare School -[mentions^-1 0.90]-> DEO/ADM/2026/009
+
+2 hop(s): 35 entities reached
+  hop 1 score 1.000  Diamond Harbour Road   via  Hare School -[near 1.00]-> Diamond Harbour Road
+  hop 1 score 0.995  WBBSE   via  Hare School -[affiliated_with 0.99]-> WBBSE
+  hop 1 score 0.990  DEO/ADM/2026/006   via  Hare School -[mentions^-1 0.99]-> DEO/ADM/2026/006
+  hop 1 score 0.985  Entally   via  Hare School -[located_in 0.98]-> Entally
+  hop 1 score 0.900  DEO/ADM/2026/001   via  Hare School -[mentions^-1 0.90]-> DEO/ADM/2026/001
+  hop 1 score 0.900  DEO/ADM/2026/009   via  Hare School -[mentions^-1 0.90]-> DEO/ADM/2026/009
+  hop 2 score 1.000  Bethune Collegiate School   via  Hare School -[near 1.00]-> Diamond Harbour Road -[near^-1 1.00]-> Bethune Collegiate School
+  hop 2 score 1.000  St. Jude's High School   via  Hare School -[near 1.00]-> Diamond Harbour Road -[near^-1 1.00]-> St. Jude's High School
+
+Fan-out limit: WBBSE has 34 neighbours; neighbours(WBBSE, hops=1, fanout=3) returns 3
+Cycle handling: a 2-hop walk from Hare School met 27 edges that lead back to nodes already reached; they are not re-expanded (visited set), so the walk always terminates.
+
+=== 3. Benefit: evidence that plain search misses ===
+question: Which circulars apply to the board of Hare School?
+entities detected: [('school:360501161', 'School', 'Hare School')]
+judged relevant chunks: ['CIR-001-sched', 'CIR-004-rev', 'CIR-005-rule4', 'CIR-006-intro', 'CIR-008-applies', 'CIR-009-intro', 'CIR-010-intro', 'CIR-011-supers', 'GUIDE-001-applies']
+  BM25 top-5    : 5 chunks, 2 relevant, missing 7
+  vector top-5  : 5 chunks, 1 relevant, missing 8
+  plain union   : 9 chunks, 3 relevant, missing 6
+  graph expand  : 46 chunks, 8 relevant, missing 1
+  relevant chunks found ONLY through the graph: ['CIR-005-rule4', 'CIR-006-intro', 'CIR-008-applies', 'CIR-009-intro', 'GUIDE-001-applies']
+   example path: CIR-005-rule4 <- Hare School -[affiliated_with 0.99]-> WBBSE -[applies_to^-1 0.92]-> Rule 4(1)
+   example path: CIR-001-sched <- Hare School -[affiliated_with 0.99]-> WBBSE -[applies_to^-1 0.90]-> DEO/ADM/2026/001
+   example path: CIR-006-intro <- Hare School -[affiliated_with 0.99]-> WBBSE -[applies_to^-1 0.90]-> DEO/ADM/2026/006
+
+=== 4. Noise: expansion adds irrelevant chunks ===
+question: How many marks are needed to enter Hare School? | entities: [('school:360501161', 'School', 'Hare School')] | judged relevant: ['CIR-006-note', 'CIR-006-table']
+  loose (2 hops, no limits)                                                     :  64 chunks, 2 relevant, precision 0.03
+  default limits (fanout 20, weight>=0.5, hub skip, sibling block, decay 0.7)   :  46 chunks, 2 relevant, precision 0.04
+  tight (1 hop, weight>=0.8)                                                    :  10 chunks, 2 relevant, precision 0.20
+  default limits, only the 10 best-scored graph chunks: (10, 2)
+  Limits used: min_weight, fan-out cap per node, hub entities contribute no mention chunks, no sibling hops, hop decay, and a top-N cut;
+  in Task 5 graph chunks are only extra candidates - the reranker and the confidence score still decide what is answered.

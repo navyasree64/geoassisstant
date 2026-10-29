@@ -1,0 +1,6 @@
+﻿BAAI/bge-small-en-v1.5: dims=384, max_seq_len=512, 60.0 chunks/s, query_prefix=yes
+   cosine(query, texts): [0.786, 0.611, 0.457]
+sentence-transformers/all-MiniLM-L6-v2: dims=384, max_seq_len=256, 47.6 chunks/s, query_prefix=no
+   cosine(query, texts): [0.683, 0.309, 0.198]
+reranker: score type = raw logit (one float per pair, higher = more relevant)
+   scores: [7.618, -10.967, -10.981]

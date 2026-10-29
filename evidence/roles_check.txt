@@ -1,0 +1,2 @@
+Elasticsearch: 200 {"username":"rag_app_user","roles":["rag_app"],"full_name":null,"email":null,"metadata":{},"enabled":true,"authentication_realm":{"name":"default_native","type":"native"},"lookup_realm":{"name":"default_native","type":"native"},"authentication_type":"realm"}
+GeoServer: 200 Features: 1

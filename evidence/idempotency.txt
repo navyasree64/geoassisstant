@@ -1,0 +1,28 @@
+=== IDEMPOTENCY TEST: TWO INGESTION RUNS WITH APP ROLE (rag_app_user) ===
+
+Initial baseline counts before test:
+  east_india_entities  : 130 (expected 130)
+  east_india_chunks    : 67 (expected 67)
+  east_india_relations : 270 (expected 270)
+
+--- 1. Testing Entities (ingest/resolve_and_index.py) ---
+Entities Run 1 count: 130
+Entities Run 2 count: 130
+Result: Run 1 = 130, Run 2 = 130 -> IDEMPOTENT (count matches 130)
+
+--- 2. Testing Chunks (ingest/index_chunks.py) ---
+Chunks Run 1 count: 67
+Chunks Run 2 count: 67
+Result: Run 1 = 67, Run 2 = 67 -> IDEMPOTENT (count matches 67)
+
+--- 3. Testing Relations (ingest/build_relations.py) ---
+Relations Run 1 count: 270
+Relations Run 2 count: 270
+Result: Run 1 = 270, Run 2 = 270 -> IDEMPOTENT (count matches 270)
+
+=== SUMMARY TABLE ===
+| Index | Expected | Run 1 Count | Run 2 Count | Idempotent |
+|---|---|---|---|---|
+| east_india_entities  | 130 | 130 | 130 | PASS |
+| east_india_chunks    | 67  | 67 | 67 | PASS |
+| east_india_relations | 270 | 270 | 270 | PASS |

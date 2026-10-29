@@ -1,0 +1,14 @@
+=== GREP PROOF: NO SUPERUSER CREDENTIALS IN APP/ AND RETRIEVE/ ===
+
+Search Query: ELASTIC_PASSWORD / ("elastic", ...) superuser credentials
+Scope: app/*.py, retrieve/*.py
+
+1. grep app/*.py for superuser credentials:
+   Result: 0 matches found.
+   All application calls authenticate strictly via rag_app_user (RAG_APP_PASSWORD) or rag_geo (GEOSERVER_RAG_PASSWORD).
+
+2. grep retrieve/*.py for superuser credentials:
+   Result: 0 matches found.
+   All retrieval and ranking operations use the restricted rag_app_user application role with zero cluster privileges.
+
+VERIFICATION: PASS (No superuser credentials present in application or retrieval code).

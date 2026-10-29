@@ -1,0 +1,41 @@
+qid,split,question,top_chunk,top_logit,prob_top,margin,agreement_kw_vec,rank_agreement,success
+CQ01,fit,What is the cut-off mark for Hare School?,CIR-006-note,6.8067,0.9989,1.7158,1.0,1.0,0
+CQ02,fit,What is the cut-off mark for Tantia High School?,CIR-006-table,6.4243,0.9984,6.0425,1.0,1.0,1
+CQ03,fit,What is the cut-off mark for Chittaranjan Boys High School?,CIR-006-table,6.373,0.9983,0.6503,1.0,1.0,1
+CQ04,fit,What is the cut-off mark for Dum Dum Baidyanath Institution?,CIR-006-table,5.4161,0.9956,1.0687,1.0,1.0,1
+CQ05,fit,What is the cut-off mark for Vivekananda School?,CIR-006-table,5.228,0.9947,5.6832,1.0,1.0,1
+CQ06,fit,What is the cut-off mark for Hindu Girl's School?,CIR-007-table,6.4824,0.9985,2.5413,1.0,1.0,1
+CQ07,fit,What is the cut-off mark for Kamala Chatterjee Girls School?,CIR-007-table,6.8677,0.999,6.4005,1.0,1.0,1
+CQ08,fit,What is the cut-off mark for Debiswari Girl's High School?,CIR-007-table,6.5622,0.9986,4.5768,1.0,1.0,1
+CQ09,fit,How many seats and what cut-off does Pandit Motilal Institute have?,CIR-010-table,5.1991,0.9945,8.5615,1.0,1.0,1
+CQ10,fit,How many seats and what cut-off does Sri Ramkrishna Vidyasram have?,CIR-010-table,5.2186,0.9946,9.1585,1.0,1.0,1
+CQ11,test,How many seats and what cut-off does Rajarhat Shiksha Niketan High School for Boys have?,CIR-010-table,6.5386,0.9986,1.1409,1.0,1.0,1
+CQ12,test,How many Class I seats are approved for Don Bosco School?,CIR-002-table,7.7912,0.9996,1.291,1.0,1.0,1
+CQ13,test,How many Class I seats are approved for Heritage Academy?,CIR-002-table,6.8327,0.9989,1.8071,1.0,1.0,1
+CQ14,fit,How many Class I seats are approved for Nava Nalanda Group of Schools?,CIR-002-table,7.8662,0.9996,1.1868,1.0,1.0,1
+CQ15,test,How many seats does St. Jude's High School have for Class I?,CIR-003-table,6.9905,0.9991,7.3761,1.0,1.0,1
+CQ16,test,How many seats does Holy Cross School have for Class I?,CIR-003-table,6.5151,0.9985,5.0073,1.0,1.0,1
+CQ17,fit,How many seats does Auxilium Convent School have for Class I?,CIR-003-table,6.3269,0.9982,6.3202,1.0,1.0,1
+CQ18,fit,What is the last date for submitting Class V applications in WBBSE schools?,CIR-004-rev,10.0185,1.0,0.4814,1.0,1.0,1
+CQ19,fit,When is the admission lottery for WBBSE schools?,CIR-004-rev,10.0267,1.0,0.6047,1.0,0.0,1
+CQ20,test,What is the minimum age for Class I in ICSE schools?,CIR-003-body,9.4093,0.9999,7.6404,1.0,1.0,1
+CQ21,fit,What percentage of seats is reserved for EWS children?,CIR-011-rule4,9.9447,1.0,2.0002,1.0,1.0,1
+CQ22,test,How many parents must attend the lottery draw?,GUIDE-001-rule23,8.5583,0.9998,13.6442,1.0,1.0,1
+CQ23,fit,Within how many days must vacancies be filled after a transfer notice?,CIR-008-rule7,8.9644,0.9999,11.0035,1.0,1.0,1
+CQ24,fit,Which schools are located on Barrackpore Trunk Road?,CIR-009-r_barrackpore_trunk_road,10.0043,1.0,4.1721,1.0,1.0,1
+CQ25,fit,Which schools are located on AJC Bose Road?,CIR-009-r_ajc_bose_road,9.7668,0.9999,10.0751,1.0,1.0,1
+CQ26,fit,Within how many days must schools on listed roads install speed breakers?,CIR-009-intro,8.6064,0.9998,14.9881,1.0,1.0,1
+CQ27,fit,Which schools covered by circulars are in Dum Dum?,NOTE-001-loc_dum_dum,10.3131,1.0,3.3564,1.0,1.0,1
+CQ28,fit,What is the land use of the localities in the district?,NOTE-001-head,-2.7092,0.0624,0.5746,1.0,1.0,0
+CQ29,test,What is the age requirement for Class V admission in WBBSE schools?,CIR-004-rev,8.3206,0.9998,1.5062,1.0,1.0,1
+CQ30,fit,Which circular supersedes DEO/ADM/2026/001?,CIR-004-supers,8.7982,0.9998,0.9756,1.0,1.0,1
+CQ31,test,Which circular revised the EWS income ceiling?,CIR-011-head,7.253,0.9993,5.9242,1.0,1.0,0
+CQ32,fit,Which boys' school has the highest cut-off among WBBSE boys' schools?,CIR-007-note,4.0833,0.9834,0.7033,1.0,1.0,0
+CQ33,test,What is the tuition fee at Hare School?,CIR-006-note,-1.8275,0.1385,0.3345,1.0,1.0,0
+CQ34,test,Who is the district education officer?,CIR-001-contact,-1.026,0.2639,6.2536,1.0,1.0,0
+CQ35,test,What is the school bus timetable for Delhi Public School?,CIR-012-note,-0.4223,0.396,0.5943,1.0,1.0,0
+CQ36,test,What are the hostel rules at St. Jude's High School?,NOTE-001-loc_dum_dum,0.2147,0.5535,0.4889,1.0,1.0,0
+CQ37,fit,When does the monsoon holiday begin?,CIR-001-sched,-9.7758,0.0001,0.2742,0.0,1.0,0
+CQ38,fit,How many teachers does Bethune Collegiate School have?,CIR-007-note,2.3521,0.9131,3.1925,1.0,1.0,0
+CQ39,test,What is the weather in Howrah today?,NOTE-001-landuse,-4.8778,0.0076,1.1828,1.0,1.0,0
+CQ40,test,What is the mid-day meal menu in WBBSE schools?,NOTE-001-loc_baranagar,-3.1835,0.0398,0.7325,0.0,0.0,0

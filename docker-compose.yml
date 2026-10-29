@@ -1,0 +1,41 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${ES_VERSION}
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=false
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      - ES_JAVA_OPTS=-Xms2g -Xmx2g
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    mem_limit: 4g
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${ES_VERSION}
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=kibana_system
+      - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    mem_limit: 1500m
+
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.26.1
+    environment:
+      - EXTRA_JAVA_OPTS=-Xms512m -Xmx1g
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./gisdata:/opt/gisdata
+      - geoserver_data:/opt/geoserver_data
+    mem_limit: 1500m
+
+volumes:
+  esdata:
+  geoserver_data:

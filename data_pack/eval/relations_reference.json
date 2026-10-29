@@ -1,0 +1,1077 @@
+[
+ {
+  "type": "applies_to",
+  "source": "CIR-001",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-001",
+  "target": "Bethune Collegiate School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-001",
+  "target": "Hare School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-001",
+  "target": "Tantia High School"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-002",
+  "target": "CBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-002",
+  "target": "Delhi Public School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-002",
+  "target": "Don Bosco School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-002",
+  "target": "Heritage Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-002",
+  "target": "Narain Dass Bangur Memorial Multipurpose School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-002",
+  "target": "Nava Nalanda Group of Schools"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-003",
+  "target": "ICSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "Auxilium Convent School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "Harrow Hall"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "Holy Cross School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "Saint Xavier's Collegiate School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "St. Jude's High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "Sunrise International School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-003",
+  "target": "The Calcutta Emmanuel School"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-004",
+  "target": "WBBSE"
+ },
+ {
+  "type": "supersedes",
+  "source": "CIR-004",
+  "target": "CIR-001"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-005",
+  "target": "CBSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-005",
+  "target": "ICSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-005",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-005",
+  "target": "Delhi Public School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-005",
+  "target": "Don Bosco School"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-006",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "B.K.Paul's Institution"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Baranagar Ramakrishna Mission Ashrama High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Chittaranjan Boys High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Dinabandhu Institution Main"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Dum Dum Baidyanath Institution"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Hare School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Tantia High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-006",
+  "target": "Vivekananda School"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-007",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-007",
+  "target": "Bethune Collegiate School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-007",
+  "target": "Chittaranjan Girls High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-007",
+  "target": "Debiswari Girl's High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-007",
+  "target": "Hindu Girl's School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-007",
+  "target": "Kamala Chatterjee Girls School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-007",
+  "target": "Rajarhat Shiksha Niketan High School for Girls"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-008",
+  "target": "CBSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-008",
+  "target": "ICSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-008",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-008",
+  "target": "Dum Dum Krishna Kumar Hindu Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-008",
+  "target": "Pandit Motilal Institute"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-009",
+  "target": "CBSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-009",
+  "target": "ICSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-009",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Auxilium Convent School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "B.K.Paul's Institution"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Baranagar Ramakrishna Mission Ashrama High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Bethune Collegiate School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Chittaranjan Boys High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Chittaranjan Girls High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Debiswari Girl's High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Delhi Public School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Dinabandhu Institution Main"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Dum Dum Baidyanath Institution"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Dum Dum Krishna Kumar Hindu Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Hare School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Heritage Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Hindu Girl's School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Kamala Chatterjee Girls School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Narain Dass Bangur Memorial Multipurpose School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Nava Nalanda Group of Schools"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Pandit Motilal Institute"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Rajarhat Shiksha Niketan High School for Boys"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Rajarhat Shiksha Niketan High School for Girls"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Sri Ramkrishna Vidyasram"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "St. Jude's High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Tantia High School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "The Calcutta Emmanuel School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-009",
+  "target": "Vivekananda School"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-010",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-010",
+  "target": "Dum Dum Krishna Kumar Hindu Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-010",
+  "target": "Kabitirtha Vidyalaya"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-010",
+  "target": "Pandit Motilal Institute"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-010",
+  "target": "Rajarhat Shiksha Niketan High School for Boys"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-010",
+  "target": "Sri Ramkrishna Vidyasram"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-011",
+  "target": "CBSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-011",
+  "target": "ICSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-011",
+  "target": "WBBSE"
+ },
+ {
+  "type": "supersedes",
+  "source": "CIR-011",
+  "target": "CIR-005"
+ },
+ {
+  "type": "applies_to",
+  "source": "CIR-012",
+  "target": "CBSE"
+ },
+ {
+  "type": "supersedes",
+  "source": "CIR-012",
+  "target": "CIR-002"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-012",
+  "target": "Delhi Public School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-012",
+  "target": "Don Bosco School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-012",
+  "target": "Heritage Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-012",
+  "target": "Lakeview Public School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-012",
+  "target": "Narain Dass Bangur Memorial Multipurpose School"
+ },
+ {
+  "type": "mentions",
+  "source": "CIR-012",
+  "target": "Nava Nalanda Group of Schools"
+ },
+ {
+  "type": "applies_to",
+  "source": "GUIDE-001",
+  "target": "CBSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "GUIDE-001",
+  "target": "ICSE"
+ },
+ {
+  "type": "applies_to",
+  "source": "GUIDE-001",
+  "target": "WBBSE"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Auxilium Convent School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "B.K.Paul's Institution"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Baranagar Ramakrishna Mission Ashrama High School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Bethune Collegiate School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Chittaranjan Boys High School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Chittaranjan Girls High School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Debiswari Girl's High School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Delhi Public School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Dinabandhu Institution Main"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Don Bosco School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Dum Dum Baidyanath Institution"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Dum Dum Krishna Kumar Hindu Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Hare School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Harrow Hall"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Heritage Academy"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Hindu Girl's School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Holy Cross School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Kabitirtha Vidyalaya"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Kamala Chatterjee Girls School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Narain Dass Bangur Memorial Multipurpose School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Nava Nalanda Group of Schools"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Pandit Motilal Institute"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Rajarhat Shiksha Niketan High School for Boys"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Rajarhat Shiksha Niketan High School for Girls"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Saint Xavier's Collegiate School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Sri Ramkrishna Vidyasram"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "St. Jude's High School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Tantia High School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "The Calcutta Emmanuel School"
+ },
+ {
+  "type": "mentions",
+  "source": "NOTE-001",
+  "target": "Vivekananda School"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Baranagar Ramakrishna Mission Ashrama High School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Baranagar Ramakrishna Mission Ashrama High School",
+  "target": "Baranagar"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "St. Jude's High School",
+  "target": "ICSE"
+ },
+ {
+  "type": "located_in",
+  "source": "St. Jude's High School",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Rajarhat Shiksha Niketan High School for Boys",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Rajarhat Shiksha Niketan High School for Boys",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Rajarhat Shiksha Niketan High School for Girls",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Rajarhat Shiksha Niketan High School for Girls",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Narain Dass Bangur Memorial Multipurpose School",
+  "target": "CBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Narain Dass Bangur Memorial Multipurpose School",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Hindu Girl's School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Hindu Girl's School",
+  "target": "Shibpur"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Kabitirtha Vidyalaya",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Kabitirtha Vidyalaya",
+  "target": "Shibpur"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Delhi Public School",
+  "target": "CBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Delhi Public School",
+  "target": "Salt Lake"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Holy Cross School",
+  "target": "ICSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Holy Cross School",
+  "target": "Entally"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "The Calcutta Emmanuel School",
+  "target": "ICSE"
+ },
+ {
+  "type": "located_in",
+  "source": "The Calcutta Emmanuel School",
+  "target": "Jadavpur"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Heritage Academy",
+  "target": "CBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Heritage Academy",
+  "target": "Howrah"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Chittaranjan Girls High School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Chittaranjan Girls High School",
+  "target": "Ballygunge"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Chittaranjan Boys High School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Chittaranjan Boys High School",
+  "target": "Ballygunge"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Don Bosco School",
+  "target": "CBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Don Bosco School",
+  "target": "Park Street"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Kamala Chatterjee Girls School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Kamala Chatterjee Girls School",
+  "target": "Ballygunge"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Hare School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Hare School",
+  "target": "Entally"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "B.K.Paul's Institution",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "B.K.Paul's Institution",
+  "target": "Howrah"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Dinabandhu Institution Main",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Dinabandhu Institution Main",
+  "target": "Shibpur"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Tantia High School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Tantia High School",
+  "target": "Entally"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Vivekananda School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Vivekananda School",
+  "target": "Shibpur"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Saint Xavier's Collegiate School",
+  "target": "ICSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Saint Xavier's Collegiate School",
+  "target": "Park Street"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Harrow Hall",
+  "target": "ICSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Harrow Hall",
+  "target": "Park Street"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Debiswari Girl's High School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Debiswari Girl's High School",
+  "target": "Bally"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Dum Dum Baidyanath Institution",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Dum Dum Baidyanath Institution",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Dum Dum Krishna Kumar Hindu Academy",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Dum Dum Krishna Kumar Hindu Academy",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Auxilium Convent School",
+  "target": "ICSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Auxilium Convent School",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Pandit Motilal Institute",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Pandit Motilal Institute",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Sri Ramkrishna Vidyasram",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Sri Ramkrishna Vidyasram",
+  "target": "Dum Dum"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Bethune Collegiate School",
+  "target": "WBBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Bethune Collegiate School",
+  "target": "Belgachia"
+ },
+ {
+  "type": "affiliated_with",
+  "source": "Nava Nalanda Group of Schools",
+  "target": "CBSE"
+ },
+ {
+  "type": "located_in",
+  "source": "Nava Nalanda Group of Schools",
+  "target": "Tollygunge"
+ },
+ {
+  "type": "near",
+  "source": "Baranagar Ramakrishna Mission Ashrama High School",
+  "target": "Barrackpore Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "St. Jude's High School",
+  "target": "Diamond Harbour Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Rajarhat Shiksha Niketan High School for Boys",
+  "target": "Grand Trunk Road",
+  "distance_m": 5.2
+ },
+ {
+  "type": "near",
+  "source": "Rajarhat Shiksha Niketan High School for Girls",
+  "target": "Grand Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Narain Dass Bangur Memorial Multipurpose School",
+  "target": "Grand Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Hindu Girl's School",
+  "target": "Belgachia Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Delhi Public School",
+  "target": "Grand Trunk Road",
+  "distance_m": 0.2
+ },
+ {
+  "type": "near",
+  "source": "The Calcutta Emmanuel School",
+  "target": "AJC Bose Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Heritage Academy",
+  "target": "Belgachia Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Chittaranjan Girls High School",
+  "target": "AJC Bose Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Chittaranjan Boys High School",
+  "target": "AJC Bose Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Kamala Chatterjee Girls School",
+  "target": "AJC Bose Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Hare School",
+  "target": "Diamond Harbour Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "B.K.Paul's Institution",
+  "target": "Belgachia Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Dinabandhu Institution Main",
+  "target": "Belgachia Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Tantia High School",
+  "target": "Diamond Harbour Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Vivekananda School",
+  "target": "Belgachia Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Debiswari Girl's High School",
+  "target": "Diamond Harbour Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Dum Dum Baidyanath Institution",
+  "target": "Barrackpore Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Dum Dum Krishna Kumar Hindu Academy",
+  "target": "Barrackpore Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Auxilium Convent School",
+  "target": "Barrackpore Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Pandit Motilal Institute",
+  "target": "Grand Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Sri Ramkrishna Vidyasram",
+  "target": "Barrackpore Trunk Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Bethune Collegiate School",
+  "target": "Diamond Harbour Road",
+  "distance_m": 0.0
+ },
+ {
+  "type": "near",
+  "source": "Nava Nalanda Group of Schools",
+  "target": "AJC Bose Road",
+  "distance_m": 0.0
+ }
+]

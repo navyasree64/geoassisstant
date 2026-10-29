@@ -1,0 +1,16 @@
+{
+  "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "edge_id":     {"type": "keyword"},
+      "source_id":   {"type": "keyword"},
+      "target_id":   {"type": "keyword"},
+      "type":        {"type": "keyword"},
+      "weight":      {"type": "float"},
+      "evidence":    {"type": "keyword"},
+      "source_type": {"type": "keyword"},
+      "target_type": {"type": "keyword"}
+    }
+  }
+}

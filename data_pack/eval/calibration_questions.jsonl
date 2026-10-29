@@ -1,0 +1,40 @@
+{"qid": "CQ01", "question": "What is the cut-off mark for Hare School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-006-table", "grade": 2}]}
+{"qid": "CQ02", "question": "What is the cut-off mark for Tantia High School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-006-table", "grade": 2}]}
+{"qid": "CQ03", "question": "What is the cut-off mark for Chittaranjan Boys High School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-006-table", "grade": 2}]}
+{"qid": "CQ04", "question": "What is the cut-off mark for Dum Dum Baidyanath Institution?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-006-table", "grade": 2}]}
+{"qid": "CQ05", "question": "What is the cut-off mark for Vivekananda School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-006-table", "grade": 2}]}
+{"qid": "CQ06", "question": "What is the cut-off mark for Hindu Girl's School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-007-table", "grade": 2}]}
+{"qid": "CQ07", "question": "What is the cut-off mark for Kamala Chatterjee Girls School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-007-table", "grade": 2}]}
+{"qid": "CQ08", "question": "What is the cut-off mark for Debiswari Girl's High School?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-007-table", "grade": 2}]}
+{"qid": "CQ09", "question": "How many seats and what cut-off does Pandit Motilal Institute have?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-010-table", "grade": 2}, {"chunk_id": "CIR-010-intro", "grade": 1}]}
+{"qid": "CQ10", "question": "How many seats and what cut-off does Sri Ramkrishna Vidyasram have?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-010-table", "grade": 2}, {"chunk_id": "CIR-010-intro", "grade": 1}]}
+{"qid": "CQ11", "question": "How many seats and what cut-off does Rajarhat Shiksha Niketan High School for Boys have?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-010-table", "grade": 2}, {"chunk_id": "CIR-010-intro", "grade": 1}]}
+{"qid": "CQ12", "question": "How many Class I seats are approved for Don Bosco School?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-012-table", "grade": 2}, {"chunk_id": "CIR-002-table", "grade": 1}]}
+{"qid": "CQ13", "question": "How many Class I seats are approved for Heritage Academy?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-012-table", "grade": 2}, {"chunk_id": "CIR-002-table", "grade": 1}]}
+{"qid": "CQ14", "question": "How many Class I seats are approved for Nava Nalanda Group of Schools?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-012-table", "grade": 2}, {"chunk_id": "CIR-002-table", "grade": 1}]}
+{"qid": "CQ15", "question": "How many seats does St. Jude's High School have for Class I?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-003-table", "grade": 2}]}
+{"qid": "CQ16", "question": "How many seats does Holy Cross School have for Class I?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-003-table", "grade": 2}]}
+{"qid": "CQ17", "question": "How many seats does Auxilium Convent School have for Class I?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-003-table", "grade": 2}]}
+{"qid": "CQ18", "question": "What is the last date for submitting Class V applications in WBBSE schools?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-004-rev", "grade": 2}, {"chunk_id": "CIR-001-sched", "grade": 1}]}
+{"qid": "CQ19", "question": "When is the admission lottery for WBBSE schools?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-004-rev", "grade": 2}, {"chunk_id": "CIR-001-sched", "grade": 1}]}
+{"qid": "CQ20", "question": "What is the minimum age for Class I in ICSE schools?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-003-body", "grade": 2}]}
+{"qid": "CQ21", "question": "What percentage of seats is reserved for EWS children?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-005-rule4", "grade": 2}, {"chunk_id": "CIR-011-rule4", "grade": 2}]}
+{"qid": "CQ22", "question": "How many parents must attend the lottery draw?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "GUIDE-001-rule23", "grade": 2}]}
+{"qid": "CQ23", "question": "Within how many days must vacancies be filled after a transfer notice?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-008-rule7", "grade": 2}]}
+{"qid": "CQ24", "question": "Which schools are located on Barrackpore Trunk Road?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-009-r_barrackpore_trunk_road", "grade": 2}]}
+{"qid": "CQ25", "question": "Which schools are located on AJC Bose Road?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-009-r_ajc_bose_road", "grade": 2}]}
+{"qid": "CQ26", "question": "Within how many days must schools on listed roads install speed breakers?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-009-intro", "grade": 2}]}
+{"qid": "CQ27", "question": "Which schools covered by circulars are in Dum Dum?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "NOTE-001-loc_dum_dum", "grade": 2}]}
+{"qid": "CQ28", "question": "What is the land use of the localities in the district?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "NOTE-001-landuse", "grade": 2}]}
+{"qid": "CQ29", "question": "What is the age requirement for Class V admission in WBBSE schools?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-001-age", "grade": 2}, {"chunk_id": "CIR-004-rev", "grade": 1}]}
+{"qid": "CQ30", "question": "Which circular supersedes DEO/ADM/2026/001?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-004-supers", "grade": 2}]}
+{"qid": "CQ31", "question": "Which circular revised the EWS income ceiling?", "split": "test", "answerable": true, "judgments": [{"chunk_id": "CIR-011-supers", "grade": 2}, {"chunk_id": "CIR-011-rule5", "grade": 2}]}
+{"qid": "CQ32", "question": "Which boys' school has the highest cut-off among WBBSE boys' schools?", "split": "fit", "answerable": true, "judgments": [{"chunk_id": "CIR-006-note", "grade": 2}, {"chunk_id": "CIR-006-table", "grade": 1}]}
+{"qid": "CQ33", "question": "What is the tuition fee at Hare School?", "split": "test", "answerable": false, "judgments": []}
+{"qid": "CQ34", "question": "Who is the district education officer?", "split": "test", "answerable": false, "judgments": []}
+{"qid": "CQ35", "question": "What is the school bus timetable for Delhi Public School?", "split": "test", "answerable": false, "judgments": []}
+{"qid": "CQ36", "question": "What are the hostel rules at St. Jude's High School?", "split": "test", "answerable": false, "judgments": []}
+{"qid": "CQ37", "question": "When does the monsoon holiday begin?", "split": "fit", "answerable": false, "judgments": []}
+{"qid": "CQ38", "question": "How many teachers does Bethune Collegiate School have?", "split": "fit", "answerable": false, "judgments": []}
+{"qid": "CQ39", "question": "What is the weather in Howrah today?", "split": "test", "answerable": false, "judgments": []}
+{"qid": "CQ40", "question": "What is the mid-day meal menu in WBBSE schools?", "split": "test", "answerable": false, "judgments": []}

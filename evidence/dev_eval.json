@@ -1,0 +1,644 @@
+{
+  "summary": {
+    "total_questions": 10,
+    "fully_correct": 2,
+    "partial": 5,
+    "wrong": 2,
+    "answer_accuracy_rate": 0.2,
+    "abstention_correctness": "10/10 (100.0%)",
+    "mean_citation_precision": 0.75,
+    "mean_citation_recall": 0.7125
+  },
+  "questions": [
+    {
+      "qid": "D01",
+      "question": "What is the last date to apply for Class V in WBBSE schools?",
+      "behavior": "answer",
+      "reference_answer": "10 March 2026 (extended by Circular DEO/ADM/2026/004, which supersedes DEO/ADM/2026/001).",
+      "key_facts": [
+        "2026-03-10",
+        "DEO/ADM/2026/004"
+      ],
+      "facts_matched": [],
+      "facts_missing": [
+        "2026-03-10",
+        "DEO/ADM/2026/004"
+      ],
+      "key_facts_ratio": "0/2",
+      "answer_correct": "WRONG",
+      "abstention_correct": true,
+      "confidence": 0.9975,
+      "entities_found": [
+        "WBBSE"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-004-rev",
+          "reranker_score": 11.9659
+        },
+        {
+          "chunk_id": "CIR-001-sched",
+          "reranker_score": 7.1411999999999995
+        },
+        {
+          "chunk_id": "CIR-006-head",
+          "reranker_score": 5.833
+        },
+        {
+          "chunk_id": "CIR-007-head",
+          "reranker_score": 5.6366
+        },
+        {
+          "chunk_id": "CIR-010-head",
+          "reranker_score": 5.4123
+        }
+      ],
+      "answer": "The last date to apply for Class V in WBBSE schools is 28 February 2026.",
+      "citations": [
+        "CIR-001-sched"
+      ],
+      "reference_citations": [
+        "CIR-004-rev"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "latency": {
+        "safety_ms": 103.4,
+        "geoserver_ms": 0.1,
+        "retrieve_ms": 16645.4,
+        "rerank_ms": 5513.2,
+        "llm_s": 6.33
+      }
+    },
+    {
+      "qid": "D02",
+      "question": "How many Class I seats does Delhi Public School have after the revision?",
+      "behavior": "answer",
+      "reference_answer": "160 seats (Circular DEO/ADM/2026/012 supersedes DEO/ADM/2026/002).",
+      "key_facts": [
+        "160",
+        "DEO/ADM/2026/012"
+      ],
+      "facts_matched": [
+        "160"
+      ],
+      "facts_missing": [
+        "DEO/ADM/2026/012"
+      ],
+      "key_facts_ratio": "1/2",
+      "answer_correct": "PARTIAL",
+      "abstention_correct": true,
+      "confidence": 0.9674,
+      "entities_found": [
+        "Delhi Public School"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-012-table",
+          "reranker_score": 6.7785
+        },
+        {
+          "chunk_id": "CIR-012-note",
+          "reranker_score": 5.2545
+        },
+        {
+          "chunk_id": "CIR-002-table",
+          "reranker_score": 1.0655999999999999
+        },
+        {
+          "chunk_id": "CIR-011-rule4",
+          "reranker_score": 0.9349
+        },
+        {
+          "chunk_id": "CIR-005-rule5",
+          "reranker_score": -4.3998
+        }
+      ],
+      "answer": "Delhi Public School has 160 seats after the revision.",
+      "citations": [
+        "CIR-012-note",
+        "CIR-012-table"
+      ],
+      "reference_citations": [
+        "CIR-012-table"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "latency": {
+        "safety_ms": 2.1,
+        "geoserver_ms": 0.2,
+        "retrieve_ms": 92.0,
+        "rerank_ms": 295.3,
+        "llm_s": 9.45
+      }
+    },
+    {
+      "qid": "D03",
+      "question": "What is the cut-off mark for Bethune Collegiate School?",
+      "behavior": "answer",
+      "reference_answer": "82 marks.",
+      "key_facts": [
+        "82"
+      ],
+      "facts_matched": [
+        "82"
+      ],
+      "facts_missing": [],
+      "key_facts_ratio": "1/1",
+      "answer_correct": "FULLY CORRECT",
+      "abstention_correct": true,
+      "confidence": 0.9852,
+      "entities_found": [
+        "Bethune Collegiate School"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-007-note",
+          "reranker_score": 8.4025
+        },
+        {
+          "chunk_id": "CIR-007-table",
+          "reranker_score": 5.9322
+        },
+        {
+          "chunk_id": "CIR-010-intro",
+          "reranker_score": 0.331
+        },
+        {
+          "chunk_id": "NOTE-001-loc_belgachia",
+          "reranker_score": -0.7836
+        },
+        {
+          "chunk_id": "CIR-006-head",
+          "reranker_score": -1.2969
+        }
+      ],
+      "answer": "Bethune Collegiate School's cut-off is 82 marks.",
+      "citations": [
+        "CIR-007-table",
+        "NOTE-001-loc_belgachia"
+      ],
+      "reference_citations": [
+        "CIR-007-table"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "latency": {
+        "safety_ms": 1.9,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 101.3,
+        "rerank_ms": 302.9,
+        "llm_s": 6.48
+      }
+    },
+    {
+      "qid": "D04",
+      "question": "Which circular supersedes DEO/ADM/2026/005 and what is the new income ceiling for EWS applicants?",
+      "behavior": "answer",
+      "reference_answer": "Circular DEO/ADM/2026/011 supersedes it; the new ceiling is Rs. 150000.",
+      "key_facts": [
+        "DEO/ADM/2026/011",
+        "150000"
+      ],
+      "facts_matched": [
+        "DEO/ADM/2026/011"
+      ],
+      "facts_missing": [
+        "150000"
+      ],
+      "key_facts_ratio": "1/2",
+      "answer_correct": "PARTIAL",
+      "abstention_correct": true,
+      "confidence": 0.9767,
+      "entities_found": [
+        "DEO/ADM/2026/005"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-011-head",
+          "reranker_score": 7.4681
+        },
+        {
+          "chunk_id": "CIR-011-supers",
+          "reranker_score": 0.9129
+        },
+        {
+          "chunk_id": "CIR-012-supers",
+          "reranker_score": 0.7187999999999999
+        },
+        {
+          "chunk_id": "CIR-004-supers",
+          "reranker_score": 0.4984000000000002
+        },
+        {
+          "chunk_id": "CIR-005-head",
+          "reranker_score": 0.38569999999999993
+        }
+      ],
+      "answer": "[CIR-011-head] supersedes DEO/ADM/2026/005 and provides revised income ceiling for EWS applicants.",
+      "citations": [
+        "CIR-011-head",
+        "CIR-011-supers"
+      ],
+      "reference_citations": [
+        "CIR-011-rule5",
+        "CIR-011-supers"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 0.5,
+      "citation_recall": 0.5,
+      "latency": {
+        "safety_ms": 0.5,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 97.2,
+        "rerank_ms": 161.7,
+        "llm_s": 12.59
+      }
+    },
+    {
+      "qid": "D05",
+      "question": "Which circulars apply to the board of Hare School?",
+      "behavior": "answer",
+      "reference_answer": "Hare School is a WBBSE school. Circulars for WBBSE: DEO/ADM/2026/001, DEO/ADM/2026/004, DEO/ADM/2026/005, DEO/ADM/2026/006, DEO/ADM/2026/008, DEO/ADM/2026/009, DEO/ADM/2026/010, DEO/ADM/2026/011 (001 superseded by 004; 005 superseded by 011), plus the lottery guidelines.",
+      "key_facts": [
+        "DEO/ADM/2026/001",
+        "DEO/ADM/2026/004",
+        "DEO/ADM/2026/005",
+        "DEO/ADM/2026/006",
+        "DEO/ADM/2026/008",
+        "DEO/ADM/2026/009",
+        "DEO/ADM/2026/010",
+        "DEO/ADM/2026/011"
+      ],
+      "facts_matched": [
+        "DEO/ADM/2026/006"
+      ],
+      "facts_missing": [
+        "DEO/ADM/2026/001",
+        "DEO/ADM/2026/004",
+        "DEO/ADM/2026/005",
+        "DEO/ADM/2026/008",
+        "DEO/ADM/2026/009",
+        "DEO/ADM/2026/010",
+        "DEO/ADM/2026/011"
+      ],
+      "key_facts_ratio": "1/8",
+      "answer_correct": "PARTIAL",
+      "abstention_correct": true,
+      "confidence": 0.916,
+      "entities_found": [
+        "Hare School"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "NOTE-001-loc_entally",
+          "reranker_score": 4.7779
+        },
+        {
+          "chunk_id": "CIR-010-intro",
+          "reranker_score": 0.8023
+        },
+        {
+          "chunk_id": "CIR-006-intro",
+          "reranker_score": 0.5173
+        },
+        {
+          "chunk_id": "CIR-002-body",
+          "reranker_score": -2.1042
+        },
+        {
+          "chunk_id": "CIR-001-sched",
+          "reranker_score": -2.4227
+        }
+      ],
+      "answer": "[CIR-006-intro] applies to Hare School (WBBSE)",
+      "citations": [
+        "CIR-006-intro"
+      ],
+      "reference_citations": [
+        "CIR-001-sched",
+        "CIR-004-rev",
+        "CIR-005-rule4",
+        "CIR-006-intro",
+        "CIR-008-applies",
+        "CIR-009-intro",
+        "CIR-010-intro",
+        "CIR-011-supers"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 1.0,
+      "citation_recall": 0.125,
+      "latency": {
+        "safety_ms": 1.5,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 87.3,
+        "rerank_ms": 306.1,
+        "llm_s": 6.08
+      }
+    },
+    {
+      "qid": "D06",
+      "question": "Which schools are located on Grand Trunk Road?",
+      "behavior": "answer",
+      "reference_answer": "Delhi Public School, Rajarhat Shiksha Niketan High School for Boys, Rajarhat Shiksha Niketan High School for Girls, Narain Dass Bangur Memorial Multipurpose School, Pandit Motilal Institute.",
+      "key_facts": [
+        "Delhi Public School",
+        "Rajarhat Shiksha Niketan High School for Boys",
+        "Rajarhat Shiksha Niketan High School for Girls",
+        "Narain Dass Bangur Memorial Multipurpose School",
+        "Pandit Motilal Institute"
+      ],
+      "facts_matched": [
+        "Delhi Public School",
+        "Rajarhat Shiksha Niketan High School for Boys",
+        "Rajarhat Shiksha Niketan High School for Girls",
+        "Narain Dass Bangur Memorial Multipurpose School",
+        "Pandit Motilal Institute"
+      ],
+      "facts_missing": [],
+      "key_facts_ratio": "5/5",
+      "answer_correct": "FULLY CORRECT",
+      "abstention_correct": true,
+      "confidence": 0.9933,
+      "entities_found": [
+        "Grand Trunk Road"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-009-r_grand_trunk_road",
+          "reranker_score": 9.9932
+        },
+        {
+          "chunk_id": "CIR-009-r_barrackpore_trunk_road",
+          "reranker_score": 7.0141
+        },
+        {
+          "chunk_id": "CIR-009-r_belgachia_road",
+          "reranker_score": 2.1497
+        },
+        {
+          "chunk_id": "CIR-009-r_diamond_harbour_road",
+          "reranker_score": 1.2957
+        },
+        {
+          "chunk_id": "CIR-009-r_ajc_bose_road",
+          "reranker_score": 0.5385
+        }
+      ],
+      "answer": "Delhi Public School, Rajarhat Shiksha Niketan High School for Boys, Rajarhat Shiksha Niketan High School for Girls, Narain Dass Bangur Memorial Multipurpose School, Pandit Motilal Institute are located on Grand Trunk Road.",
+      "citations": [
+        "CIR-009-r_grand_trunk_road"
+      ],
+      "reference_citations": [
+        "CIR-009-r_grand_trunk_road"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "latency": {
+        "safety_ms": 0.4,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 75.9,
+        "rerank_ms": 308.7,
+        "llm_s": 11.67
+      }
+    },
+    {
+      "qid": "D07",
+      "question": "Where is Saint Xavier's Collegiate School located?",
+      "behavior": "answer",
+      "reference_answer": "In Park Street (about lon 88.3562, lat 22.5481), from the Geo-Server schools layer (osm_id 637073212).",
+      "key_facts": [
+        "Park Street",
+        "637073212"
+      ],
+      "facts_matched": [
+        "Park Street"
+      ],
+      "facts_missing": [
+        "637073212"
+      ],
+      "key_facts_ratio": "1/2",
+      "answer_correct": "PARTIAL",
+      "abstention_correct": true,
+      "confidence": 0.9631,
+      "entities_found": [
+        "Saint Xavier's Collegiate School"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-003-note",
+          "reranker_score": 6.5254
+        },
+        {
+          "chunk_id": "NOTE-001-loc_park_street",
+          "reranker_score": 6.1215
+        },
+        {
+          "chunk_id": "CIR-003-table",
+          "reranker_score": 2.4929
+        },
+        {
+          "chunk_id": "CIR-009-r_diamond_harbour_road",
+          "reranker_score": -2.2424
+        },
+        {
+          "chunk_id": "CIR-007-note",
+          "reranker_score": -7.206
+        }
+      ],
+      "answer": "Saint Xavier's Collegiate School is in Park Street",
+      "citations": [
+        "NOTE-001-loc_park_street"
+      ],
+      "reference_citations": [
+        "NOTE-001-loc_park_street",
+        "geoserver"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "latency": {
+        "safety_ms": 2.1,
+        "geoserver_ms": 182.6,
+        "retrieve_ms": 55.1,
+        "rerank_ms": 309.2,
+        "llm_s": 6.06
+      }
+    },
+    {
+      "qid": "D08",
+      "question": "What is the minimum age for Class I admission in CBSE schools?",
+      "behavior": "answer",
+      "reference_answer": "6 years as on 31 March 2026.",
+      "key_facts": [
+        "6 years",
+        "2026-03-31"
+      ],
+      "facts_matched": [],
+      "facts_missing": [
+        "6 years",
+        "2026-03-31"
+      ],
+      "key_facts_ratio": "0/2",
+      "answer_correct": "WRONG",
+      "abstention_correct": true,
+      "confidence": 0.9795,
+      "entities_found": [
+        "CBSE"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-002-body",
+          "reranker_score": 7.7294
+        },
+        {
+          "chunk_id": "CIR-003-body",
+          "reranker_score": 5.3919
+        },
+        {
+          "chunk_id": "CIR-004-rev",
+          "reranker_score": 3.3942
+        },
+        {
+          "chunk_id": "CIR-001-age",
+          "reranker_score": 2.9715
+        },
+        {
+          "chunk_id": "CIR-005-rule4",
+          "reranker_score": -0.37860000000000005
+        }
+      ],
+      "answer": "The minimum age for Class I admission in CBSE schools is 5 years.",
+      "citations": [
+        "CIR-002-body"
+      ],
+      "reference_citations": [
+        "CIR-002-body"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "latency": {
+        "safety_ms": 0.4,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 132.4,
+        "rerank_ms": 338.4,
+        "llm_s": 9.81
+      }
+    },
+    {
+      "qid": "D09",
+      "question": "How long is the admission waiting list valid?",
+      "behavior": "answer",
+      "reference_answer": "60 days after the draw (Rule 2.5).",
+      "key_facts": [
+        "60 days",
+        "Rule 2.5"
+      ],
+      "facts_matched": [
+        "60 days"
+      ],
+      "facts_missing": [
+        "Rule 2.5"
+      ],
+      "key_facts_ratio": "1/2",
+      "answer_correct": "PARTIAL",
+      "abstention_correct": true,
+      "confidence": 0.9761,
+      "entities_found": [],
+      "top_passages": [
+        {
+          "chunk_id": "GUIDE-001-rule25",
+          "reranker_score": 7.418
+        },
+        {
+          "chunk_id": "CIR-004-rev",
+          "reranker_score": -1.6709999999999998
+        },
+        {
+          "chunk_id": "CIR-003-body",
+          "reranker_score": -2.9086
+        },
+        {
+          "chunk_id": "CIR-002-body",
+          "reranker_score": -5.0753
+        },
+        {
+          "chunk_id": "CIR-001-age",
+          "reranker_score": -5.6846
+        }
+      ],
+      "answer": "[GUIDE-001-rule25] The waiting list remains valid for 60 days after the draw.",
+      "citations": [
+        "GUIDE-001-rule25"
+      ],
+      "reference_citations": [
+        "GUIDE-001-rule25"
+      ],
+      "unretrieved_citations": [],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "latency": {
+        "safety_ms": 0.3,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 82.3,
+        "rerank_ms": 180.3,
+        "llm_s": 11.38
+      }
+    },
+    {
+      "qid": "D10",
+      "question": "What is the tuition fee at Hare School?",
+      "behavior": "abstain",
+      "reference_answer": "I cannot answer this from the available sources.",
+      "key_facts": [],
+      "facts_matched": [],
+      "facts_missing": [],
+      "key_facts_ratio": "0/0",
+      "answer_correct": "CORRECT",
+      "abstention_correct": true,
+      "confidence": 0.2862,
+      "entities_found": [
+        "Hare School"
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "CIR-006-note",
+          "reranker_score": -1.8275
+        },
+        {
+          "chunk_id": "NOTE-001-loc_entally",
+          "reranker_score": -3.4558
+        },
+        {
+          "chunk_id": "CIR-006-table",
+          "reranker_score": -4.2193
+        },
+        {
+          "chunk_id": "CIR-001-age",
+          "reranker_score": -4.662
+        },
+        {
+          "chunk_id": "CIR-009-r_diamond_harbour_road",
+          "reranker_score": -5.5148
+        }
+      ],
+      "answer": "I cannot answer this from the available sources.",
+      "citations": [],
+      "reference_citations": [],
+      "unretrieved_citations": [],
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "latency": {
+        "safety_ms": 2.0,
+        "geoserver_ms": 0.0,
+        "retrieve_ms": 81.8,
+        "rerank_ms": 314.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,610 @@
+{
+ "baseline": {
+  "exact": {
+   "School": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 93,
+    "fp": 0,
+    "fn": 0
+   },
+   "Board": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 56,
+    "fp": 0,
+    "fn": 0
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 12,
+    "fp": 0,
+    "fn": 0
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 27,
+    "fp": 0,
+    "fn": 0
+   },
+   "Road": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 10,
+    "fp": 0,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 21,
+    "fp": 0,
+    "fn": 0
+   },
+   "Quantity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 48,
+    "fp": 0,
+    "fn": 0
+   },
+   "MICRO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 272,
+    "fp": 0,
+    "fn": 0
+   },
+   "MACRO_F1": 1.0
+  },
+  "relaxed": {
+   "School": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 93,
+    "fp": 0,
+    "fn": 0
+   },
+   "Board": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 56,
+    "fp": 0,
+    "fn": 0
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 12,
+    "fp": 0,
+    "fn": 0
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 27,
+    "fp": 0,
+    "fn": 0
+   },
+   "Road": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 10,
+    "fp": 0,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 21,
+    "fp": 0,
+    "fn": 0
+   },
+   "Quantity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 48,
+    "fp": 0,
+    "fn": 0
+   },
+   "MICRO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 272,
+    "fp": 0,
+    "fn": 0
+   },
+   "MACRO_F1": 1.0
+  }
+ },
+ "llm_t0_run1": {
+  "exact": {
+   "School": {
+    "precision": 0.9677,
+    "recall": 0.9677,
+    "f1": 0.9677,
+    "tp": 90,
+    "fp": 3,
+    "fn": 3
+   },
+   "Board": {
+    "precision": 1.0,
+    "recall": 0.8214,
+    "f1": 0.902,
+    "tp": 46,
+    "fp": 0,
+    "fn": 10
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 0.9167,
+    "f1": 0.9565,
+    "tp": 11,
+    "fp": 0,
+    "fn": 1
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 0.037,
+    "f1": 0.0714,
+    "tp": 1,
+    "fp": 0,
+    "fn": 26
+   },
+   "Road": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 10,
+    "fp": 0,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 0.7143,
+    "f1": 0.8333,
+    "tp": 15,
+    "fp": 0,
+    "fn": 6
+   },
+   "Quantity": {
+    "precision": 0.7059,
+    "recall": 0.25,
+    "f1": 0.3692,
+    "tp": 12,
+    "fp": 5,
+    "fn": 36
+   },
+   "MICRO": {
+    "precision": 0.9596,
+    "recall": 0.6985,
+    "f1": 0.8085,
+    "tp": 190,
+    "fp": 8,
+    "fn": 82
+   },
+   "MACRO_F1": 0.7625
+  },
+  "relaxed": {
+   "School": {
+    "precision": 0.9677,
+    "recall": 0.9677,
+    "f1": 0.9677,
+    "tp": 90,
+    "fp": 3,
+    "fn": 3
+   },
+   "Board": {
+    "precision": 1.0,
+    "recall": 0.8214,
+    "f1": 0.902,
+    "tp": 46,
+    "fp": 0,
+    "fn": 10
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 0.9167,
+    "f1": 0.9565,
+    "tp": 11,
+    "fp": 0,
+    "fn": 1
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 0.037,
+    "f1": 0.0714,
+    "tp": 1,
+    "fp": 0,
+    "fn": 26
+   },
+   "Road": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 10,
+    "fp": 0,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 0.7143,
+    "f1": 0.8333,
+    "tp": 15,
+    "fp": 0,
+    "fn": 6
+   },
+   "Quantity": {
+    "precision": 1.0,
+    "recall": 0.3542,
+    "f1": 0.5231,
+    "tp": 17,
+    "fp": 0,
+    "fn": 31
+   },
+   "MICRO": {
+    "precision": 0.9848,
+    "recall": 0.7169,
+    "f1": 0.8298,
+    "tp": 195,
+    "fp": 3,
+    "fn": 77
+   },
+   "MACRO_F1": 0.7818
+  }
+ },
+ "llm_t0_run2": {
+  "exact": {
+   "School": {
+    "precision": 0.9674,
+    "recall": 0.957,
+    "f1": 0.9622,
+    "tp": 89,
+    "fp": 3,
+    "fn": 4
+   },
+   "Board": {
+    "precision": 0.9778,
+    "recall": 0.7857,
+    "f1": 0.8713,
+    "tp": 44,
+    "fp": 1,
+    "fn": 12
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 0.8333,
+    "f1": 0.9091,
+    "tp": 10,
+    "fp": 0,
+    "fn": 2
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 0.8519,
+    "f1": 0.92,
+    "tp": 23,
+    "fp": 0,
+    "fn": 4
+   },
+   "Road": {
+    "precision": 0.8333,
+    "recall": 1.0,
+    "f1": 0.9091,
+    "tp": 10,
+    "fp": 2,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 0.7619,
+    "f1": 0.8649,
+    "tp": 16,
+    "fp": 0,
+    "fn": 5
+   },
+   "Quantity": {
+    "precision": 0.5714,
+    "recall": 0.1667,
+    "f1": 0.2581,
+    "tp": 8,
+    "fp": 6,
+    "fn": 40
+   },
+   "MICRO": {
+    "precision": 0.9447,
+    "recall": 0.7537,
+    "f1": 0.8384,
+    "tp": 205,
+    "fp": 12,
+    "fn": 67
+   },
+   "MACRO_F1": 0.8368
+  },
+  "relaxed": {
+   "School": {
+    "precision": 0.9674,
+    "recall": 0.957,
+    "f1": 0.9622,
+    "tp": 89,
+    "fp": 3,
+    "fn": 4
+   },
+   "Board": {
+    "precision": 1.0,
+    "recall": 0.8036,
+    "f1": 0.8911,
+    "tp": 45,
+    "fp": 0,
+    "fn": 11
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 0.8333,
+    "f1": 0.9091,
+    "tp": 10,
+    "fp": 0,
+    "fn": 2
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 0.8519,
+    "f1": 0.92,
+    "tp": 23,
+    "fp": 0,
+    "fn": 4
+   },
+   "Road": {
+    "precision": 0.8333,
+    "recall": 1.0,
+    "f1": 0.9091,
+    "tp": 10,
+    "fp": 2,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 0.7619,
+    "f1": 0.8649,
+    "tp": 16,
+    "fp": 0,
+    "fn": 5
+   },
+   "Quantity": {
+    "precision": 0.7857,
+    "recall": 0.2292,
+    "f1": 0.3548,
+    "tp": 11,
+    "fp": 3,
+    "fn": 37
+   },
+   "MICRO": {
+    "precision": 0.9631,
+    "recall": 0.7684,
+    "f1": 0.8548,
+    "tp": 209,
+    "fp": 8,
+    "fn": 63
+   },
+   "MACRO_F1": 0.8514
+  }
+ },
+ "llm_t0.7_run1": {
+  "exact": {
+   "School": {
+    "precision": 0.9663,
+    "recall": 0.9247,
+    "f1": 0.9451,
+    "tp": 86,
+    "fp": 3,
+    "fn": 7
+   },
+   "Board": {
+    "precision": 0.9565,
+    "recall": 0.7857,
+    "f1": 0.8627,
+    "tp": 44,
+    "fp": 2,
+    "fn": 12
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 0.9167,
+    "f1": 0.9565,
+    "tp": 11,
+    "fp": 0,
+    "fn": 1
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 0.037,
+    "f1": 0.0714,
+    "tp": 1,
+    "fp": 0,
+    "fn": 26
+   },
+   "Road": {
+    "precision": 0.8333,
+    "recall": 1.0,
+    "f1": 0.9091,
+    "tp": 10,
+    "fp": 2,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 0.6667,
+    "f1": 0.8,
+    "tp": 14,
+    "fp": 0,
+    "fn": 7
+   },
+   "Quantity": {
+    "precision": 0.5,
+    "recall": 0.0625,
+    "f1": 0.1111,
+    "tp": 3,
+    "fp": 3,
+    "fn": 45
+   },
+   "MICRO": {
+    "precision": 0.9457,
+    "recall": 0.6397,
+    "f1": 0.7632,
+    "tp": 174,
+    "fp": 10,
+    "fn": 98
+   },
+   "MACRO_F1": 0.707
+  },
+  "relaxed": {
+   "School": {
+    "precision": 0.9663,
+    "recall": 0.9247,
+    "f1": 0.9451,
+    "tp": 86,
+    "fp": 3,
+    "fn": 7
+   },
+   "Board": {
+    "precision": 1.0,
+    "recall": 0.8214,
+    "f1": 0.902,
+    "tp": 46,
+    "fp": 0,
+    "fn": 10
+   },
+   "Circular": {
+    "precision": 1.0,
+    "recall": 0.9167,
+    "f1": 0.9565,
+    "tp": 11,
+    "fp": 0,
+    "fn": 1
+   },
+   "Rule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "Locality": {
+    "precision": 1.0,
+    "recall": 0.037,
+    "f1": 0.0714,
+    "tp": 1,
+    "fp": 0,
+    "fn": 26
+   },
+   "Road": {
+    "precision": 0.8333,
+    "recall": 1.0,
+    "f1": 0.9091,
+    "tp": 10,
+    "fp": 2,
+    "fn": 0
+   },
+   "Date": {
+    "precision": 1.0,
+    "recall": 0.6667,
+    "f1": 0.8,
+    "tp": 14,
+    "fp": 0,
+    "fn": 7
+   },
+   "Quantity": {
+    "precision": 1.0,
+    "recall": 0.125,
+    "f1": 0.2222,
+    "tp": 6,
+    "fp": 0,
+    "fn": 42
+   },
+   "MICRO": {
+    "precision": 0.9728,
+    "recall": 0.6581,
+    "f1": 0.7851,
+    "tp": 179,
+    "fp": 5,
+    "fn": 93
+   },
+   "MACRO_F1": 0.7258
+  }
+ }
+}
